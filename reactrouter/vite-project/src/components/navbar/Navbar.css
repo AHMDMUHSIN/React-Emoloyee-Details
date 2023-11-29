@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
+
+.sm-navbar-border{
+    border-bottom:1px solid #dbdbdb ;
+}
+.navbar-main{
+    border-bottom: 1px solid rgb(232, 229, 229);
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.active-btn{
+    color: black;
+}
+#active-btnfor-md{
+    background-color: #efeff0;
+}
+.nav-head{
+    font-family: 'Germania One', cursive;
+    font-size: 19px;
+}
+.nav-head a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-item{
+    display: flex;
+    justify-content: end;
+    gap: 35px;
+    align-items: center;
+    font-size: 14.5px;
+    color: #6b7280;
+    font-weight: 500;
+}
+.navbar-item-for-md{
+    display: none;
+    border-bottom:1px solid #dbdbdb ;
+}
+.navbar-item-for-md i{
+    margin-right: 10px;
+    color: #a8a8aa;
+}
+.light-mode-icon{
+    font-size: 22px;
+    color: rgb(165, 162, 162);
+}
+.light-mode-icon:hover{
+    color: black;
+}
+.navbar-item button{
+    background-color: #0f766e;
+    border: 1px solid #0f766e;
+    padding: 7px 15px;
+    border-radius: 5px;
+    color: white;
+}
+.navbar-item button:hover{
+    background-color: #0f5a54;
+}
+.navbar-item span:hover{
+    color: black;
+}
+.navbar-item span:hover{
+    
+    border-bottom: 2px solid #bcbcbd;
+    padding-bottom: 10px;
+}
